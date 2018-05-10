@@ -34,7 +34,7 @@ namespace XmlParser
                 Dictionary<string, int> keyValuePairs = new Dictionary<string, int>();
                 using (XmlTextReader reader = new XmlTextReader(openFileDialog.OpenFile()))
                 {
-                    
+                    keyValuePairs.Add("no-role", 0);
                     while (reader.Read())
                     {
                         if (reader.NodeType == XmlNodeType.Element)
@@ -52,6 +52,10 @@ namespace XmlParser
                                     keyValuePairs[key] = ++keyValuePairs[key];
                                 }
 
+                            }
+                            else
+                            {
+                                keyValuePairs["no-role"] = ++keyValuePairs["no-role"];
                             }
                             
                         }
