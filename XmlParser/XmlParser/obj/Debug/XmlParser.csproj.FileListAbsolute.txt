@@ -1,0 +1,10 @@
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\bin\Debug\XmlParser.exe.config
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\bin\Debug\XmlParser.exe
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\bin\Debug\XmlParser.pdb
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\obj\Debug\XmlParser.csprojResolveAssemblyReference.cache
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\obj\Debug\XmlParser.Form1.resources
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\obj\Debug\XmlParser.Properties.Resources.resources
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\obj\Debug\XmlParser.csproj.GenerateResource.cache
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\obj\Debug\XmlParser.csproj.CoreCompileInputs.cache
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\obj\Debug\XmlParser.exe
+E:\Universtiy\fourth term\ООТПиСП\XMLParser\XmlParser\XmlParser\obj\Debug\XmlParser.pdb
