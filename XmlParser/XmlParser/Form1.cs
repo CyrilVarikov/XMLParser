@@ -39,24 +39,28 @@ namespace XmlParser
                     {
                         if (reader.NodeType == XmlNodeType.Element)
                         {
-                            if (reader.HasAttributes)
+                            if(reader.Name == "user")
                             {
-                                string key = reader.GetAttribute(0);
-                                if (!keyValuePairs.ContainsKey(key))
+                                if (reader.HasAttributes)
                                 {
-                                    keyValuePairs.Add(key, 1);
+                                    string key = reader.GetAttribute("role");
+                                    if (!keyValuePairs.ContainsKey(key))
+                                    {
+                                        keyValuePairs.Add(key, 1);
+                                    }
+                                    else
+                                    {
+                                        int value = keyValuePairs[key];
+                                        keyValuePairs[key] = ++keyValuePairs[key];
+                                    }
+
                                 }
                                 else
                                 {
-                                    int value = keyValuePairs[key];
-                                    keyValuePairs[key] = ++keyValuePairs[key];
+                                    keyValuePairs["no-role"] = ++keyValuePairs["no-role"];
                                 }
-
                             }
-                            else
-                            {
-                                keyValuePairs["no-role"] = ++keyValuePairs["no-role"];
-                            }
+                            
                             
                         }
                     }
